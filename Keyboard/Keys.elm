@@ -1,4 +1,38 @@
 module Keyboard.Keys where
+{-| Standard keyboard constants.
+
+# Data types
+@docs Key
+
+# Functions
+@docs directionKeys, isKeyDown
+
+# Constants
+## Function keys
+Note: undefined function keys have a conflict with the default keybindings of a well known browser.
+
+@docs f2, f4, f8, f9, f10
+
+## Modifiers
+@docs ctrl, shift, super, meta, windows, commandLeft, commandRight
+
+## Movement
+@docs arrowRight, arrowLeft, arrowUp, arrowDown, end, home, pageUp, pageDown
+
+## Editing keys
+@docs tab, space, backspace, delete, insert
+
+## Special keys
+@docs escape
+
+## Numbers
+@docs one, two, three, four, five, six, seven, eight, nine, zero
+
+## Letters
+@docs a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z
+
+
+-}
 
 import Keyboard
 
