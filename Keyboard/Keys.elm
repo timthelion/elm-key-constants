@@ -295,62 +295,77 @@ escape =
 
 -- We don't define the F keys that are not availiable.  AKA, F1 is help, F3 is search.  F5 is refresh. Those keys cannot be used.
 
+f2: Key
 f2 = 
  {keyCode = 113
  ,name = "F2"}
 
+f4: Key
 f4 = 
  {keyCode = 115
  ,name = "F4"}
 
+f8: Key
 f8 = 
  {keyCode = 119
  ,name = "F8"}
 
+f9: Key
 f9 = 
  {keyCode = 120
  ,name = "F9"}
 
+f10: Key
 f10 = 
  {keyCode = 121
  ,name = "F10"}
 
+one: Key
 one = 
  {keyCode = 49
  ,name = "1"}
 
+two: Key
 two = 
  {keyCode = 50
  ,name = "2"}
 
+three: Key
 three = 
  {keyCode = 51
  ,name = "3"}
 
+four: Key
 four = 
  {keyCode = 52
  ,name = "4"}
 
+five: Key
 five = 
  {keyCode = 53
  ,name = "5"}
 
+six: Key
 six = 
  {keyCode = 54
  ,name = "6"}
 
+seven: Key
 seven = 
  {keyCode = 55
  ,name = "7"}
 
+eight: Key
 eight = 
  {keyCode = 56
  ,name = "8"}
 
+nine: Key
 nine = 
  {keyCode = 57
  ,name = "9"}
 
+zero: Key
 zero = 
  {keyCode = 58
  ,name = "0"}
