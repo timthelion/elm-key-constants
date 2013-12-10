@@ -48,194 +48,247 @@ directionKeys up down right left = Keyboard.directions up.keyCode down.keyCode r
 isKeyDown : Key -> Signal Bool
 isKeyDown k = Keyboard.isDown k.keyCode
 
+a: Key
 a =
  {keyCode = 65
  ,name = "a"}
 
+b: Key
 b =
  {keyCode = 66
  ,name = "b"}
 
+c: Key
 c =
  {keyCode = 67
  ,name = "b"}
 
+d: Key
 d =
  {keyCode = 68
  ,name = "d"}
 
+e: Key
 e = 
  {keyCode = 69
  ,name = "e"}
 
+f: Key
 f = 
  {keyCode = 70
  ,name = "f"}
 
+g: Key
 g = 
  {keyCode = 71
  ,name = "g"}
 
+h: Key
 h = 
  {keyCode = 72
  ,name = "h"}
 
+i: Key
 i = 
  {keyCode = 73
  ,name = "i"}
 
+j: Key
 j = 
  {keyCode = 74
  ,name = "j"}
 
+k: Key
 k = 
  {keyCode = 75
  ,name = "k"}
 
+l: Key
 l = 
  {keyCode = 76
  ,name = "l"}
 
+m: Key
 m = 
  {keyCode = 77
  ,name = "m"}
 
+n: Key
 n = 
  {keyCode = 78
  ,name = "n"}
 
+o: Key
 o = 
  {keyCode = 79
  ,name = "o"}
 
+p: Key
 p = 
  {keyCode = 80
  ,name = "p"}
 
+q: Key
 q = 
  {keyCode = 81
  ,name = "q"}
 
+r: Key
 r = 
  {keyCode = 82
  ,name = "r"}
 
+s: Key
 s = 
  {keyCode = 83
  ,name = "s"}
 
+t: Key
 t = 
  {keyCode = 84
  ,name = "t"}
 
+u: Key
 u = 
  {keyCode = 85
  ,name = "u"}
 
+v: Key
 v = 
  {keyCode = 86
  ,name = "v"}
 
+w: Key
 w = 
  {keyCode = 87
  ,name = "w"}
 
+x: Key
 x = 
  {keyCode = 88
  ,name = "x"}
 
+y: Key
 y = 
  {keyCode = 89
  ,name = "y"}
 
+z: Key
 z = 
  {keyCode = 90
  ,name = "z"}
 
+ctrl: Key
 ctrl = 
  {keyCode = 17
  ,name = "Ctrl"}
 
+shift: Key
 shift = 
  {keyCode = 16
  ,name = "Shift"}
 
+tab: Key
 tab = 
  {keyCode = 9
  ,name = "Tab"}
 
+{-| super,meta,windows are all the same -}
+super: Key
 super = 
  {keyCode = 91
  ,name = "Super"}
 
+{-| super,meta,windows are all the same -}
+meta: Key
 meta = 
  {keyCode = 91
  ,name = "Meta"}
 
+{-| super,meta,windows are all the same -}
+windows: Key
 windows = 
  {keyCode = 91
  ,name = "Windows"}
 
-commandLeft = -- On the mac
+{-| A key on mac keyboards. The same keycode as the windows/super/meta keys -}
+commandLeft: Key
+commandLeft =
  {keyCode = 91
- ,name = "Commandleft"}
+ ,name = "Command left"}
 
-commandRight = -- On the mac
+{-| A key on mac keyboards. -}
+commandRight: Key
+commandRight =
  {keyCode = 93
- ,name = "Commandright"}
+ ,name = "Command right"}
 
+space: Key
 space = 
  {keyCode = 32
  ,name = "Space"}
 
+enter: Key
 enter = 
  {keyCode = 13
  ,name = "Enter"}
 
+arrowRight: Key
 arrowRight = 
  {keyCode = 37
- ,name = "Arrowright"}
+ ,name = "Right arrow"}
 
+arrowLeft: Key
 arrowLeft = 
  {keyCode = 39
- ,name = "Arrowleft"}
+ ,name = "Left arrow"}
 
+arrowUp: Key
 arrowUp = 
  {keyCode = 38
- ,name = "Arrowup"}
+ ,name = "Up arrow"}
 
+arrowDown: Key
 arrowDown = 
  {keyCode = 40
- ,name = "Arrowdown"}
+ ,name = "Down arrow"}
 
+backspace: Key
 backspace = 
  {keyCode = 8
  ,name = "Backspace"}
 
+delete: Key
 delete = 
  {keyCode = 46
  ,name = "Delete"}
 
+insert: Key
 insert = 
  {keyCode = 45
  ,name = "Insert"}
 
+end: Key
 end = 
  {keyCode = 35
  ,name = "End"}
 
+home: Key
 home = 
  {keyCode = 36
  ,name = "Home"}
 
+pageDown: Key
 pageDown = 
  {keyCode = 34
- ,name = "Pagedown"}
+ ,name = "Page down"}
 
+pageUp: Key
 pageUp = 
  {keyCode = 33
- ,name = "Pageup"}
+ ,name = "Page up"}
 
+escape: Key
 escape = 
  {keyCode = 27
  ,name = "Escape"}
