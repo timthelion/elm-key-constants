@@ -1,0 +1,9 @@
+{ "version": "0.0"
+, "summary": "Keyboard constants"
+, "description": "Constants refering to keycodes"
+, "license": "BSD3"
+, "repository": "https://github.com/timthelion/elm-key-constants.git"
+, "exposed-modules":
+    [ "Keyboard.Keys"
+    ]
+}
