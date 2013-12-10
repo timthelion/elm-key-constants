@@ -1,4 +1,5 @@
-{ "version": "0.0"
+{ "elm-version": "0.1"
+, "version": "1.0"
 , "summary": "Keyboard constants"
 , "description": "Constants refering to keycodes"
 , "license": "BSD3"
