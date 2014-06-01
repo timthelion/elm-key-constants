@@ -20,7 +20,7 @@ Note: undefined function keys have a conflict with the default keybindings of a 
 @docs arrowRight, arrowLeft, arrowUp, arrowDown, end, home, pageUp, pageDown
 
 ## Editing keys
-@docs tab, space, backspace, delete, insert
+@docs tab, space, backspace, delete, insert, enter
 
 ## Special keys
 @docs escape
